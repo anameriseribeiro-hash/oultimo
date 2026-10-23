@@ -1,0 +1,52 @@
+.secao.metas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.meta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+img{
+    width: 200px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.meta:hover{
+    transition: .5s;
+    transform: scale(1.5);
+}
+
+h2{
+    width: 150px;
+}
+
+p{
+    width: 400px;
+}
+
+h1{
+    text-align: center;
+}
+
+body {
+    background-color: #f1eddf;
+    color: black;
+}
+
+
+footer p{
+  text-align: center;
+  width: 100%;
+}
